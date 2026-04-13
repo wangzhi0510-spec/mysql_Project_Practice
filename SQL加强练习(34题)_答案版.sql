@@ -19,14 +19,7 @@ show tables;
 select *
 from products;
 
-select *
-from products;
-
-select *
-from products;
-
-select *
-from products;
+-- 我把功能写炸了。。。。。。爆炸！！！！！！！
 
 -- 需求2: 查询每个客户的 ID, company name, contact name, contact title, city, 和 country.并按照国家名字排序
 # select customer_id, company_name, contact_name, contact_title, city, country from customers;
