@@ -20,8 +20,8 @@ select *
 from products;
 
 -- 需求2: 查询每个客户的 ID, company name, contact name, contact title, city, 和 country.并按照国家名字排序
--- select customer_id, company_name, contact_name, contact_title, city, country from customers;
-select customer_id from customers;
+# select customer_id, company_name, contact_name, contact_title, city, country from customers;
+select country from customers;
 
 -- 替换快捷键: ctrl + 字母R
 -- 需求3: 查询每一个商品的product_name, category_name, quantity_per_unit, unit_price, units_in_stock 并且通过 unit_price 字段排序
