@@ -15,7 +15,8 @@ show tables;
 
 -- ******************** 以下是 34个练习题 ********************
 -- 需求1: 选中employees 表的所有数据
-select * from employees;
+-- select * from employees;
+select id from employees;
 
 -- 需求2: 查询每个客户的 ID, company name, contact name, contact title, city, 和 country.并按照国家名字排序
 select customer_id, company_name, contact_name, contact_title, city, country from customers;
